@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunarmand - O'zbekiston Milliy Hunarmandchiligi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo"><i class="fa-solid fa-gem"></i> Hunarmand<span>UZ</span></a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#hero" class="nav-link active">Bosh sahifa</a>
+                <a href="#categories" class="nav-link">Yo'nalishlar</a>
+                <a href="#masters" class="nav-link">Ustalar</a>
+                <a href="#contact" class="nav-link">Bog'lanish</a>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container hero-content">
+            <h1>Asrlar oshgan milliy hunarmandchilik</h1>
+            <p>O'zbekistonning eng sara qo'l mehnati, naqshinkor kulolchilik, gilamdo'zlik va milliy buyumlari bilan tanishing.</p>
+            <div class="hero-btns">
+                <a href="#categories" class="btn btn-primary">Katalogni ko'rish</a>
+                <a href="#contact" class="btn btn-outline">Bog'lanish</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories" id="categories">
+        <div class="container">
+            <h2 class="section-title">Asosiy Yo'nalishlar</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="card-icon"><i class="fa-solid fa-jar"></i></div>
+                    <h3>Kulolchilik</h3>
+                    <p>Rishton va G'ijduvonning mashhur qo'lda yasalgan sopol idoralari va laganlari.</p>
+                </div>
+                <div class="category-card">
+                    <div class="card-icon"><i class="fa-solid fa-shirt"></i></div>
+                    <h3>Zardo'zlik va Atlas</h3>
+                    <p>Buxoro zardo'zlik liboslari va Marg'ilon shoyi atlas va adraslari.</p>
+                </div>
+                <div class="category-card">
+                    <div class="card-icon"><i class="fa-solid fa-palette"></i></div>
+                    <h3>Naqqoshlik va Yog'och</h3>
+                    <p>Qo'lda o'ymakorlik qilingan milliy eshiklar, lavhlar va sandiqlar.</p>
+                </div>
+                <div class="category-card">
+                    <div class="card-icon"><i class="fa-solid fa-rug"></i></div>
+                    <h3>Gilamdo'zlik</h3>
+                    <p>Qadimiy an'analarda to'qilgan qo'lbola ipak va jun gilamlar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Masters Section -->
+    <section class="masters" id="masters">
+        <div class="container">
+            <h2 class="section-title">Taniqli Ustalar</h2>
+            <div class="master-grid">
+                <div class="master-card">
+                    <div class="master-img">
+                        <i class="fa-solid fa-user-tie"></i>
+                    </div>
+                    <h3>Usta Alisher</h3>
+                    <span>Kulol (Rishton)</span>
+                    <p>30 yillik tajribaga ega usta, xalqaro ko'rgazmalar g'olibi.</p>
+                </div>
+                <div class="master-card">
+                    <div class="master-img">
+                        <i class="fa-solid fa-user-nurse"></i>
+                    </div>
+                    <h3>Mavluda opaxon</h3>
+                    <span>Zardo'z (Buxoro)</span>
+                    <p>Milliy liboslar va zardo'zlik bo'yicha sulola davomchisi.</p>
+                </div>
+                <div class="master-card">
+                    <div class="master-img">
+                        <i class="fa-solid fa-user-gear"></i>
+                    </div>
+                    <h3>Usta Toshmat</h3>
+                    <span>Yog'och o'ymakori (Toshkent)</span>
+                    <p>Murakkab naqshli eshiklar va ustunlar ustasi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Biz bilan bog'laning</h2>
+            <div class="contact-wrapper">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Ismingiz" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Email manzilingiz" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Xabaringiz..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Xabarni yuborish</button>
+                    <p id="formStatus" class="form-status"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Hunarmand UZ. Barcha huquqlar himoyalangan.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
